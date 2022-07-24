@@ -16,10 +16,6 @@ body {
     justify-content: center;
 }
 
-.header {
-    justify-content: space-between;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,18 +26,31 @@ ul {
 
 a {
     text-decoration: none;
-    color: gray;
-    font-weight: bold;
+    color: rgb(238, 234, 234);
+    font-size: 20px;
 }
 
-.first-screen, .second-screen, .third-screen, .fourth-screen, .header {
+.first-screen, .second-screen, .third-screen, .fourth-screen {
     display: flex;
-    padding: 0px 240px;
+    padding: 0px 140px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 140px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
 }
 
 .second-screen {
     flex-direction: column;
-    height: 250px;
+    justify-content: center;
+    align-items: center;
 }
 
 .sub-image-holder {
@@ -57,12 +66,69 @@ a {
 }
 
 .like-img {
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 140px;
     border: solid blue;
 }
 
 .quote {
     font-size: 26px;
     max-width: 500px;
+}
+
+.first-header {
+    font-size: 48px;
+    color: white;
+}
+
+.second-header {
+    font-size: 38px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 660px;
+    background-color: rgb(163, 159, 159);
+}
+
+.first-screen {
+    padding: 56px 140px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    padding: 8px 16px;
+}
+
+.sub-image-holder {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.sub-image {
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #666768;
+    font-size: 18px;
+    font-weight: 400;
 }
