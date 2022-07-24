@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.screens {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.first-screen, .second-screen, .third-screen, .fourth-screen, .header {
+    display: flex;
+    padding: 0px 240px;
+}
+
+.second-screen {
+    flex-direction: column;
+    height: 250px;
+}
+
+.sub-image-holder {
+    display: flex;
+}
+
+.header, .first-screen, .footer {
+    background-color: #1f2937;
+}
+
+.third-screen {
+    background-color: #e5e7eb;
+}
+
+.like-img {
+    height: 100px;
+    width: 100px;
+    border: solid blue;
+}
+
+.quote {
+    font-size: 26px;
+    max-width: 500px;
+}
